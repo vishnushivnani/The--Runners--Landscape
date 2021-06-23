@@ -652,7 +652,7 @@ function draw(){
  
       // resets characters Position 
       Joey.x = 50;
-      Joey.y = 50;
+      Joey.y = 20;
       Joey.velocityX  = 0 ;
       Joey.velocityY  = 0 ;
    // hides all The buttons
@@ -838,10 +838,10 @@ function Spawn_BigGround2(){
     var BigGround4 = createSprite(width+300,height-25,10,10)
         BigGround4.addImage(BigGround_Img2)
         BigGround4.velocityX =-(3 + 3*score/100);  
-        BigGround.lifetime  = 350
-        BigGround2.lifetime = 350
-        BigGround3.lifetime = 350
-        BigGround4.lifetime = 350
+        BigGround.lifetime  = 450
+        BigGround2.lifetime = 450
+        BigGround3.lifetime = 450
+        BigGround4.lifetime = 450
         BigGroundGroup.add(BigGround)
         BigGroundGroup.add(BigGround2)
         BigGroundGroup.add(BigGround3)
@@ -873,10 +873,10 @@ function Spawn_BigGround2(){
                       Forever_Ground3.scale = 0.5
                       Forever_Ground3.velocityX =-(3 + 3*score/100);  
            
-                      Forever_Ground.lifetime  = 350
-                      Forever_Ground2.lifetime = 350
-                      Forever_Ground3.lifetime = 350
-                      invisibleground.lifetime = 350
+                      Forever_Ground.lifetime  = 450
+                      Forever_Ground2.lifetime = 450
+                      Forever_Ground3.lifetime = 450
+                      invisibleground.lifetime = 450
 
             ForeverGroundGroup.add(Forever_Ground)  
             ForeverGroundGroup.add(Forever_Ground2)  
@@ -927,10 +927,10 @@ function Spawn_BigGround2(){
                      Forever_Ground3.scale = 0.5
                      Forever_Ground3.velocityX =-(3 + 3*score/100);  
 
-                     Forever_Ground.lifetime   = 350;
-                     Forever_Ground2.lifetime  = 350;
-                     Forever_Ground3.lifetime  = 350;
-                     invisibleground2.lifetime = 350;
+                     Forever_Ground.lifetime   = 450;
+                     Forever_Ground2.lifetime  = 450;
+                     Forever_Ground3.lifetime  = 450;
+                     invisibleground2.lifetime = 450;
 
                      ForeverGroundGroup.add(Forever_Ground)  
                      ForeverGroundGroup.add(Forever_Ground2)  
@@ -958,10 +958,10 @@ function Spawn_BigGround2(){
            Forever_Ground3.scale = 0.5
            Forever_Ground3.velocityX =-(3 + 3*score/100);  
 
-           Forever_Ground.lifetime   = 350
-           Forever_Ground2.lifetime  = 350
-           Forever_Ground3.lifetime  = 350
-           invisibleground3.lifetime = 350
+           Forever_Ground.lifetime   = 450
+           Forever_Ground2.lifetime  = 450
+           Forever_Ground3.lifetime  = 450
+           invisibleground3.lifetime = 450
 
            ForeverGroundGroup.add(Forever_Ground)  
            ForeverGroundGroup.add(Forever_Ground2)  
@@ -999,10 +999,10 @@ function Spawn_BigGround2(){
                             Forever_Ground3.scale = 0.5
                             Forever_Ground3.velocityX =-(3 + 3*score/100);  
            
-                            Forever_Ground.lifetime   = 350
-                            Forever_Ground2.lifetime  = 350
-                            Forever_Ground3.lifetime  = 350
-                            invisibleground4.lifetime = 350
+                            Forever_Ground.lifetime   = 450
+                            Forever_Ground2.lifetime  = 450
+                            Forever_Ground3.lifetime  = 450
+                            invisibleground4.lifetime = 450
 
                             ForeverGroundGroup.add(Forever_Ground)  
                             ForeverGroundGroup.add(Forever_Ground2)  
@@ -1032,10 +1032,10 @@ function Spawn_BigGround2(){
                               Forever_Ground3.scale = 0.5
                               Forever_Ground3.velocityX =-(3 + 3*score/100);  
            
-                              Forever_Ground.lifetime   = 350
-                              Forever_Ground2.lifetime  = 350
-                              Forever_Ground3.lifetime  = 350
-                              invisibleground5.lifetime = 350
+                              Forever_Ground.lifetime   = 450
+                              Forever_Ground2.lifetime  = 450
+                              Forever_Ground3.lifetime  = 450
+                              invisibleground5.lifetime = 450
                               ForeverGroundGroup.add(Forever_Ground)  
                               ForeverGroundGroup.add(Forever_Ground2)  
                               ForeverGroundGroup.add(Forever_Ground3) 
@@ -1070,10 +1070,10 @@ function Spawn_BigGround2(){
                               Forever_Ground3.scale = 0.5
                               Forever_Ground3.velocityX =-(3 + 3*score/100);  
 
-                              Forever_Ground.lifetime   = 350
-                              Forever_Ground2.lifetime  = 350
-                              Forever_Ground3.lifetime  = 350
-                              invisibleground6.lifetime = 350
+                              Forever_Ground.lifetime   = 450
+                              Forever_Ground2.lifetime  = 450
+                              Forever_Ground3.lifetime  = 450
+                              invisibleground6.lifetime = 450
 
 
                               ForeverGroundGroup.add(Forever_Ground)  
@@ -1114,10 +1114,10 @@ function Spawn_BigGround2(){
             riverdown.velocityX  =-3                               
             riverdown2.velocityX =-3  
 
-            river.lifetime      = 320; 
-            river2.lifetime     = 320;
-            riverdown.lifetime  = 320; 
-            riverdown2.lifetime = 320; 
+            river.lifetime      = 350; 
+            river2.lifetime     = 350;
+            riverdown.lifetime  = 350; 
+            riverdown2.lifetime = 350; 
           }
             RiverGroup.add(river);
             RiverGroup.add(river2);
