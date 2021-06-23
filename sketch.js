@@ -383,7 +383,7 @@ points5 = font.textToPoints("The Endless Spirit",width/2-280,height-50,width/hei
         LifeLineGround.scale = 0.5
         LifeLineGround.visible = false
 
-        StartGround = createSprite(50,height/2-160)
+        StartGround = createSprite(60,height/2-160)
         StartGround.addImage(StartGround_Img)
         StartGround.scale = 0.9
         StartGround.visible = false
